@@ -1,0 +1,16 @@
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.exe
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.deps.json
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.dev.json
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.dll
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ref\ConsoleApp.dll
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.pdb
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
+C:\Users\skump\MPP_Project\ProjectC#\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
