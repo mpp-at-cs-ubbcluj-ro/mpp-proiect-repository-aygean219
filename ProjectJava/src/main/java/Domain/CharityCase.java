@@ -7,7 +7,7 @@ public class CharityCase extends Entity<Integer>{
     private Integer totalSum;
 
     public CharityCase(String name, List<Donor> donors, Integer totalSum) {
-        name = name;
+        this.name = name;
         this.donors = donors;
         this.totalSum = totalSum;
     }
@@ -17,7 +17,7 @@ public class CharityCase extends Entity<Integer>{
     }
 
     public void setName(String name) {
-        name = name;
+        this.name = name;
     }
 
     public List<Donor> getDonors() {

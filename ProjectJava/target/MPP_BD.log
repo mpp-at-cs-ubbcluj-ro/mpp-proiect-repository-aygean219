@@ -1,0 +1,309 @@
+16 mar. 2022 13:25:24,888 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {}
+16 mar. 2022 13:25:24,898 TRACE Repository.UserDatabaseRepository 89 add - Enter
+16 mar. 2022 13:25:24,899 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:25:24,899 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:25:24,900 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... null
+16 mar. 2022 13:25:24,900 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:25:24,900 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:25:24,903 ERROR Repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+16 mar. 2022 13:25:24,905 TRACE Repository.JdbcUtils 55 getConnection - Exit
+16 mar. 2022 13:26:00,774 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:26:00,802 TRACE Repository.UserDatabaseRepository 89 add - Enter
+16 mar. 2022 13:26:00,803 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:26:00,804 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:26:00,804 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:26:00,807 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:26:00,808 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:26:01,330 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+16 mar. 2022 13:26:01,353 TRACE Repository.UserDatabaseRepository 97 add - Saved 1 instances
+16 mar. 2022 13:26:01,354 TRACE Repository.UserDatabaseRepository 101 add - Exit
+16 mar. 2022 13:26:38,729 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:26:38,755 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 13:26:38,756 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 13:26:38,756 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:26:38,757 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:26:38,758 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:26:38,759 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:26:38,760 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:26:39,271 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 13:26:39,276 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 13:26:39,286 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:26:39,287 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 13:26:39,317 ERROR Repository.UserDatabaseRepository 133 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "mama": syntax error)
+16 mar. 2022 13:26:39,317 TRACE Repository.UserDatabaseRepository 135 update - Exit
+16 mar. 2022 13:27:30,411 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:27:42,271 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 13:27:42,989 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 13:27:42,991 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:27:42,993 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:27:42,996 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:27:43,000 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:27:43,003 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:27:45,511 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:27:45,556 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 13:27:48,261 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:27:48,263 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:29:15,357 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:29:15,369 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 13:29:15,370 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 13:29:15,370 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:29:15,370 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:29:15,372 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:29:15,372 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:29:15,373 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:29:15,607 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 13:29:15,622 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 13:29:15,622 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:29:15,622 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 13:29:15,643 ERROR Repository.UserDatabaseRepository 134 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "mama": syntax error)
+16 mar. 2022 13:29:15,644 TRACE Repository.UserDatabaseRepository 136 update - Exit
+16 mar. 2022 13:29:52,143 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:30:03,228 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 13:30:03,766 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 13:30:03,767 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:30:03,769 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:30:03,771 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:30:03,775 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:30:03,777 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:30:06,575 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:30:06,614 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 13:30:07,541 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:30:07,542 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:32:39,826 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:33:04,666 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:33:11,333 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 13:33:11,921 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 13:33:11,922 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:33:11,924 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:33:11,926 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:33:11,928 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:33:11,931 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:33:14,511 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:33:14,557 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 13:35:23,507 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:35:23,511 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:37:24,811 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 13:37:29,944 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 13:37:30,661 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 13:37:30,663 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:37:30,665 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 13:37:30,668 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 13:37:30,670 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 13:37:30,672 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 13:37:33,320 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 13:37:33,355 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 13:37:42,856 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 13:37:42,859 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 14:06:32,828 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:06:41,401 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 14:06:41,998 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 14:06:42,001 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:06:42,003 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:06:42,006 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:06:42,009 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:06:42,011 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:06:45,084 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 14:06:45,128 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 14:06:58,512 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:06:58,514 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 14:08:07,739 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:08:11,575 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 14:08:12,037 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 14:08:12,040 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:08:12,041 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:08:12,043 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:08:12,044 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:08:12,046 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:08:15,072 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 14:08:15,100 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 14:08:31,108 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:08:31,110 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b40ff9c)
+16 mar. 2022 14:11:04,522 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:11:04,532 TRACE Repository.UserDatabaseRepository 121 update - Enter Modifying user with id  1
+16 mar. 2022 14:11:04,533 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 14:11:04,533 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:11:04,534 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:11:04,535 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:11:04,536 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:11:04,536 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:11:04,780 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 14:11:04,791 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 14:11:04,791 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:11:04,797 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 14:11:04,828 TRACE Repository.UserDatabaseRepository 132 update - Modified 1 instances
+16 mar. 2022 14:11:04,829 TRACE Repository.UserDatabaseRepository 136 update - Exit
+16 mar. 2022 14:11:35,612 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:12:20,906 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:12:20,930 TRACE Repository.UserDatabaseRepository 107 remove - Enter Removing user with id 1
+16 mar. 2022 14:12:20,931 TRACE Repository.UserDatabaseRepository 60 getOne - Enter
+16 mar. 2022 14:12:20,932 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:12:20,932 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:12:20,933 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:12:20,933 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:12:20,935 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:12:21,359 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 14:12:21,363 TRACE Repository.UserDatabaseRepository 83 getOne - Exit
+16 mar. 2022 14:12:21,363 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:12:21,364 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 14:12:21,369 TRACE Repository.UserDatabaseRepository 112 remove - Deleted 1 instances
+16 mar. 2022 14:12:43,945 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:12:43,970 TRACE Repository.UserDatabaseRepository 89 add - Enter
+16 mar. 2022 14:12:43,972 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:12:43,974 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:12:43,977 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:12:43,980 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:12:43,981 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:12:44,341 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+16 mar. 2022 14:12:44,359 TRACE Repository.UserDatabaseRepository 97 add - Saved 1 instances
+16 mar. 2022 14:12:44,360 TRACE Repository.UserDatabaseRepository 101 add - Exit
+16 mar. 2022 14:27:56,380 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:27:56,390 TRACE Repository.UserDatabaseRepository 89 add - Enter
+16 mar. 2022 14:27:56,390 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:27:56,391 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:27:56,391 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:27:56,391 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:27:56,391 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:27:56,622 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+16 mar. 2022 14:27:56,636 TRACE Repository.UserDatabaseRepository 97 add - Saved 1 instances
+16 mar. 2022 14:27:56,637 TRACE Repository.UserDatabaseRepository 101 add - Exit
+16 mar. 2022 14:29:58,605 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:29:58,616 TRACE Repository.UserDatabaseRepository 89 add - Enter
+16 mar. 2022 14:29:58,616 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:29:58,617 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:29:58,617 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:29:58,618 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:29:58,618 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:29:58,994 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ce026d3)
+16 mar. 2022 14:29:59,012 TRACE Repository.UserDatabaseRepository 97 add - Saved 1 instances
+16 mar. 2022 14:29:59,013 TRACE Repository.UserDatabaseRepository 101 add - Exit
+16 mar. 2022 14:44:18,673 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:44:18,685 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:44:18,689 TRACE Repository.DonorDatabaseRepository 79 add - Enter
+16 mar. 2022 14:44:18,690 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:44:18,691 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:44:18,692 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:44:18,692 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:44:18,694 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:44:19,032 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b247367)
+16 mar. 2022 14:44:19,046 TRACE Repository.DonorDatabaseRepository 87 add - Saved 1 instances
+16 mar. 2022 14:44:19,047 TRACE Repository.DonorDatabaseRepository 91 add - Exit
+16 mar. 2022 14:44:33,069 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:44:33,086 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:44:33,089 TRACE Repository.DonorDatabaseRepository 111 update - Enter Modifying donor with id  1
+16 mar. 2022 14:44:33,089 TRACE Repository.DonorDatabaseRepository 55 getOne - Enter
+16 mar. 2022 14:44:33,095 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:44:33,096 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:44:33,097 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:44:33,098 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:44:33,098 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:44:33,613 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 14:44:33,627 TRACE Repository.DonorDatabaseRepository 73 getOne - Exit
+16 mar. 2022 14:44:33,628 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:44:33,630 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 14:44:33,663 TRACE Repository.DonorDatabaseRepository 122 update - Modified 1 instances
+16 mar. 2022 14:44:33,665 TRACE Repository.DonorDatabaseRepository 126 update - Exit
+16 mar. 2022 14:44:45,997 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:44:46,005 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 14:44:46,009 TRACE Repository.DonorDatabaseRepository 97 remove - Enter Removing donor with id 1
+16 mar. 2022 14:44:46,010 TRACE Repository.DonorDatabaseRepository 55 getOne - Enter
+16 mar. 2022 14:44:46,010 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:44:46,011 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 14:44:46,011 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 14:44:46,012 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 14:44:46,013 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 14:44:46,315 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 14:44:46,325 TRACE Repository.DonorDatabaseRepository 73 getOne - Exit
+16 mar. 2022 14:44:46,325 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 14:44:46,329 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 14:44:46,336 TRACE Repository.DonorDatabaseRepository 102 remove - Deleted 1 instances
+16 mar. 2022 18:20:05,942 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:20:05,952 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:20:05,956 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:20:05,958 TRACE Repository.CharityCaseDatabaseRepository 146 add - Enter
+16 mar. 2022 18:20:05,959 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:20:05,959 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:20:05,960 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:20:05,960 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:20:05,961 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:20:06,165 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 18:20:06,175 TRACE Repository.CharityCaseDatabaseRepository 152 add - Saved 1 instances
+16 mar. 2022 18:25:35,935 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:25:35,949 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:25:35,955 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:25:35,960 TRACE Repository.DonorDatabaseRepository 79 add - Enter
+16 mar. 2022 18:25:35,960 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:25:35,961 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:25:35,962 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:25:35,962 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:25:35,963 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:25:36,464 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 18:25:36,485 TRACE Repository.DonorDatabaseRepository 87 add - Saved 1 instances
+16 mar. 2022 18:25:36,487 TRACE Repository.DonorDatabaseRepository 91 add - Exit
+16 mar. 2022 18:27:26,488 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:27:26,497 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:27:26,501 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:27:26,503 TRACE Repository.DonorDatabaseRepository 79 add - Enter
+16 mar. 2022 18:27:26,505 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:27:26,505 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:27:26,505 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:27:26,506 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:27:26,506 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:27:26,705 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 18:27:26,715 TRACE Repository.DonorDatabaseRepository 87 add - Saved 1 instances
+16 mar. 2022 18:27:26,716 TRACE Repository.DonorDatabaseRepository 91 add - Exit
+16 mar. 2022 18:27:48,312 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:27:48,322 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:27:48,327 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:27:48,330 TRACE Repository.CharityCaseDatabaseRepository 146 add - Enter
+16 mar. 2022 18:27:48,332 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:27:48,332 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:27:48,332 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:27:48,333 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:27:48,333 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:27:48,628 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 18:27:48,645 TRACE Repository.CharityCaseDatabaseRepository 152 add - Saved 1 instances
+16 mar. 2022 18:30:44,762 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:30:44,776 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:30:44,794 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:30:44,801 TRACE Repository.CharityCaseDatabaseRepository 146 add - Enter
+16 mar. 2022 18:30:44,803 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:30:44,803 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:30:44,804 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:30:44,805 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:30:44,805 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:30:45,134 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+16 mar. 2022 18:30:45,142 TRACE Repository.CharityCaseDatabaseRepository 152 add - Saved 1 instances
+16 mar. 2022 18:33:35,605 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:33:35,613 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:33:35,620 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:33:35,624 TRACE Repository.CharityCaseDatabaseRepository 146 add - Enter
+16 mar. 2022 18:33:35,625 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:33:35,626 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:33:35,626 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:33:35,627 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:33:35,627 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:33:35,924 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c284af)
+16 mar. 2022 18:33:35,942 TRACE Repository.CharityCaseDatabaseRepository 152 add - Saved 1 instances
+16 mar. 2022 18:41:01,933 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:41:01,944 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:41:01,949 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:41:01,954 TRACE Repository.CharityCaseDatabaseRepository 89 getOne - Enter
+16 mar. 2022 18:41:01,955 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:41:01,956 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:41:01,956 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:41:01,957 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:41:01,958 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:41:02,235 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 18:41:02,252 ERROR Repository.CharityCaseDatabaseRepository 111 getOne - java.sql.SQLException: no such column: 'idDonor'
+16 mar. 2022 18:41:02,253 TRACE Repository.CharityCaseDatabaseRepository 140 getOne - Exit
+16 mar. 2022 18:42:28,423 INFO  Repository.UserDatabaseRepository 22 <init> - Initializing UserDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:42:28,447 INFO  Repository.DonorDatabaseRepository 23 <init> - Initializing DonorDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:42:28,459 INFO  Repository.CharityCaseDatabaseRepository 24 <init> - Initializing CharityCaseDatabaseRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db}
+16 mar. 2022 18:42:28,468 TRACE Repository.CharityCaseDatabaseRepository 89 getOne - Enter
+16 mar. 2022 18:42:28,470 TRACE Repository.JdbcUtils 46 getConnection - Enter
+16 mar. 2022 18:42:28,471 TRACE Repository.JdbcUtils 23 getNewConnection - Enter
+16 mar. 2022 18:42:28,472 INFO  Repository.JdbcUtils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\skump\MPP_Project\database\CharityDatabase.db
+16 mar. 2022 18:42:28,473 INFO  Repository.JdbcUtils 29 getNewConnection - user: null
+16 mar. 2022 18:42:28,474 INFO  Repository.JdbcUtils 30 getNewConnection - pass: null
+16 mar. 2022 18:42:28,788 TRACE Repository.JdbcUtils 55 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e057f43)
+16 mar. 2022 18:42:28,797 TRACE Repository.CharityCaseDatabaseRepository 140 getOne - Exit

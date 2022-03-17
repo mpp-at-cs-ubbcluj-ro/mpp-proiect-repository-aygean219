@@ -9,10 +9,10 @@ namespace ConsoleApp.Repository
 {
     public interface Repository<ID,E> where E: Domain.Entity<ID>
     {
-        void findOne(ID id);
+        E findOne(ID id);
         List<E> findAll();
         void save(E entity);
-        void update(E entity);
+        void update(int id,E entity);
         void delete(ID id);
     }
 }
